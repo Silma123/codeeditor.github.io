@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    text-align: center;
+    font-family: sans-serif;
+  }
+  .Frontend_editior{
+    display:flex;
+    justify-content: space-around;
+  }
+  .editors{
+    background-color: #191060;
+    color: #f01435;
+    width: 100%;
+  }
+  textarea{
+    width: 100%;
+    min-height: 280px;
+    overflow: scroll;
+    font-size: x-large;
+    overflow-x: hidden;
+  }
+  .output h1{
+    background-color: #a8151c;
+    width: 100%;
+    color: #3b3030;
+   padding: 20px;
+  }
+  iframe{
+    width: 100%;
+    
+  }
+  
